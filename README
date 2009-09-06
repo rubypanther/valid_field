@@ -1,0 +1,17 @@
+ValidField
+==========
+
+This plugin adds the method #valid_field? to ActiveRecord::Base.
+It is not efficient, but it works.
+
+
+Example
+=======
+
+user = User.new
+unless user.valid_field? :name
+  raise "I don't talk to strangers"
+end
+
+
+Copyright (c) 2009 Paris Sinclair, released under the MIT license
