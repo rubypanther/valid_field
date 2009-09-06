@@ -2,8 +2,10 @@ ValidField
 ==========
 
 This plugin adds the method #valid_field? to ActiveRecord::Base.
-It is not efficient, but it works.
 
+The purpose is to not worry about calling validation and checking errors[...] every time you want to know about a field.
+
+It is not efficient, but it works.
 
 Example
 =======
